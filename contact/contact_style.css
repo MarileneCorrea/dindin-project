@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+}
+
+.send-hello {
+  background-image: url("images/send_hello_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 35rem;
+  max-width: 100%;
+}
+
+.send-hello h3 {
+  color: #FFF;
+  position: relative;
+  top: 25%;
+  left: 10%;
+  font-size: 48px;
+  max-width: fit-content;
+}
+
+.contact-form {
+  display: flex;
+  margin: 5% 0;
+  justify-content: center;
+}
+
+.contact-form img {
+  border-radius: 15px;
+  height: 50rem;
+  width: 30rem;
+  margin-right: 1rem;
+}
+
+.contact-form form {
+  border: 1px solid orange;
+  border-radius: 15px;
+  padding: 3rem 2rem;
+  max-height: 50rem;
+  width: 55rem;
+}
+
+.contact-form h2 {
+  color: orange;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.contact-form input {
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.contact-form input:focus-visible {
+  outline: none;
+}
+
+.contact-form textarea {
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 95%;
+  height: 20rem;
+}
+
+.contact-form textarea:focus-visible {
+  outline: none;
+}
+
+.contact-form button {
+  border: none;
+  border-radius: 25px;
+  padding: 1rem 3rem;
+  background: orange;
+  color: white;
+  font-weight: 700;
+}
